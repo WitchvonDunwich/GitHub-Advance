@@ -42,3 +42,12 @@ sed -i 's/DEBUG=true/DEBUG=false/' config.txt
 git add config.txt
 git commit -m "disable debug mode again"
 
+# commit 7
+cat > settings.txt <<'EOF'
+TIMEOUT=30
+MAX_RETRIES=3
+EOF
+
+git add settings.txt
+git commit -m "add setting"
+

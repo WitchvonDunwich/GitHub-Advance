@@ -62,6 +62,8 @@ Add-Content app.py @"
 
 def greet_uppercase(name):
     return greet(name).upper()
+
+someting ereoreoooa!!!!
 "@
 
 git add app.py

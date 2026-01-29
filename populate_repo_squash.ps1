@@ -36,3 +36,12 @@ git commit -m "re-enable debug mode"
 
 git add config.txt
 git commit -m "disable debug mode again"
+
+# commit 7
+@"
+TIMEOUT=30
+MAX_RETRIES=3
+"@ | Set-Content settings.txt
+
+git add settings.txt
+git commit -m "add setting"
